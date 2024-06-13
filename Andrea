@@ -1,0 +1,24 @@
+loguearse
+git config --global user.name""
+git config --global user.email ""
+
+segundo paso iniciar un repositorio
+git init
+
+tercer paso, revisar el destino, si hay un destino lo borramos 
+git remote -v
+
+borrar destino (por si hay uno)
+git remote remove origin
+
+indicar destino
+git remote add origin (+link)
+
+cuarto paso revisar el estado de los archivos 
+git status 
+
+quinto paso, empezar con el guardado
+git add
+git commit -m "..." (nombre descriptivo)
+git branch -m main 
+git push origin main 
