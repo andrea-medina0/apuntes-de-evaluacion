@@ -3,7 +3,7 @@ git config --global user.name""
 git config --global user.email ""
 
 segundo paso iniciar un repositorio
-git init
+git init en la carpeta
 
 tercer paso, revisar el destino, si hay un destino lo borramos 
 git remote -v
@@ -18,7 +18,7 @@ cuarto paso revisar el estado de los archivos
 git status 
 
 quinto paso, empezar con el guardado
-git add
+git add y nombre del archivo 
 git commit -m "..." (nombre descriptivo)
 git branch -m main 
 git push origin main 
