@@ -22,3 +22,5 @@ git add y nombre del archivo
 git commit -m "..." (nombre descriptivo)
 git branch -m main 
 git push origin main 
+
+19/06/24
